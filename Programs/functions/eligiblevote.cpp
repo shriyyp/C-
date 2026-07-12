@@ -1,13 +1,17 @@
 #include <iostream>
 using namespace std;
-void num(){
-    for(int i=1;i<=100;i=i+1){
-        cout<<i<<endl;
-    }
-    
-}
+void vote(int x){
+    if (x<18){
+       cout<<"not eligible ";
+        }
+        else {
+            cout<<"You are eligible";
+        }
+      
+    }   
 int main()
 {
-num();///remaing hai karlena thsi one 
+ vote(20);
+
 return 0;
 }
