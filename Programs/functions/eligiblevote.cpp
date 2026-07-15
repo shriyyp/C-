@@ -2,7 +2,7 @@
 using namespace std;
 void vote(int x){
     if (x<18){
-       cout<<" not eligible ";
+       cout<<"not eligible ";
         }
         else {
             cout<<"You are eligible";
@@ -11,7 +11,7 @@ void vote(int x){
     }   
 int main()
 {
- vote(30);
+ vote(20);
 
 return 0;
 }
